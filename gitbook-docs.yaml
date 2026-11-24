@@ -1,4 +1,11 @@
-root: ./documentation/
-structure:
-  readme: README.md
-  summary: SUMMARY.md
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Embeddedos Docs
+  structure:
+    - type: space
+      key: documentation
+      title: Documentation
+      path: documentation
+      default: true
+      content:
+        directory: ./documentation
